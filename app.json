@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Restaurante da Fê",
+    "slug": "testApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "androidStatusBar": {
+      "backgroundColor": "#0D1117",
+      "translucent": false
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to allow you to take photos for your profile.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to allow you to upload photos for your profile.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs permission to save photos to your photo library."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rodrigoo_camilo.testApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f932e817-5c47-4c46-8098-b889eb37679e"
+      }
+    }
+  }
+}
